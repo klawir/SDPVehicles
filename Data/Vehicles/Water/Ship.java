@@ -5,7 +5,7 @@ import Data.Vehicles.Core.Vehicle;
 public class Ship extends Vehicle {
 
     public Ship() {
-        speed=120;
+        speed=60;
         production="a producer";
     }
     public Ship(int  speed, String production) {

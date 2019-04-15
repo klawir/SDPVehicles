@@ -12,7 +12,7 @@ public abstract class Vehicle {
         this.production = production;
     }
     public String toString() {
-        return " producenta "+production+ " jest najszybszy (maksymalna prędkość to="+speed+")";
+        return " producenta "+production+ " jest najszybszy (maksymalna prędkość to="+speed+"km/h)";
     }
     public int getSpeed() {
         return speed;

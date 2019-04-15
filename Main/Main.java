@@ -16,14 +16,14 @@ public class Main {
         List vehicleList=new ArrayList<Vehicle>();
 
         vehicleList.add(new Car());
-        vehicleList.add(new Car(390, "pc"));
-        vehicleList.add(new Car(290, "pcc"));
-        vehicleList.add(new Car(190, "pc1"));
+        vehicleList.add(new Car(463, "Bugatti"));
+        vehicleList.add(new Car(290, "Lamborgini"));
+        vehicleList.add(new Car(200, "BMW"));
         vehicleList.add(new Ship());
-        vehicleList.add(new Ship(150, "ps"));
-        vehicleList.add(new Plane(3200, "pp"));
+        vehicleList.add(new Ship(104, "HSC"));
+        vehicleList.add(new Plane(956, "Boeing"));
         vehicleList.add(new Plane());
-        vehicleList.add(new Bicycle(55, "bs"));
+        vehicleList.add(new Bicycle(210, "Intense"));
         vehicleList.add(new Bicycle());
 
         Program program= new Program(vehicleList);
